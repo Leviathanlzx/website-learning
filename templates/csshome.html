@@ -14,10 +14,10 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center mt-2 mb-4">Hello EOES!</h1>
+        <h1 class="text-center mt-2 mb-4" style="color:#40128B">Hello EOES!</h1>
         <img class="img-fluid" id="banner" src="static/00010.png">
         <div>
-            <h2 class="text-center mt-2 mb-4">Introduction</h2>
+            <h2 class="text-center mt-2 mb-4" style="color:#40128B">Introduction</h2>
             <p class="lead">队友们出去逛街了，莞儿一人在宿舍做家务。
 
                 下午回到宿舍，米诺脸色却很不好看，一巴掌扇在了莞儿的脸上：“饭呢?饭呢?你洗个我们的衣服都要花5分钟?我们都饿了!饿了!”
@@ -43,6 +43,11 @@
                 这时，在莞儿的背后，四只手伸了出来，两只环住了她的脖子，两只搭在了她的肩膀上......
 
                 此后，再也没有人见过唐莞儿了。 作者：沉沦焰之露</p>
+            <div>
+                {% for i in info%}
+                <div>{{i["time"]}}<b>标题: </b>{{i["title"]}}</div>
+                {% endfor %}
+            </div>
             <div class="text-center mt-2 mb-4">
                 <button class="btn btn-outline-success">join us!</button>
             </div>
