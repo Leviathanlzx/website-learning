@@ -7,13 +7,13 @@ jobs=[
         "id":1,
         "title":"刚刚吃了川菜你们呢",
         "time":"2023",
-        "member":"Minuo"
+        "member":"米诺"
     },
     {
         "id": 2,
         "title": "刚刚没吃饭",
         "time": "2023",
-        "member": "Minuo"
+        "member": "米诺"
     }
 ]
 @app.route("/")

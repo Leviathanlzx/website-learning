@@ -45,7 +45,9 @@
                 此后，再也没有人见过唐莞儿了。 作者：沉沦焰之露</p>
             <div>
                 {% for i in info%}
-                <div>{{i["time"]}}<b>标题: </b>{{i["title"]}}</div>
+                <div>
+                    {{i["member"]}}{{i["time"]}}<b>标题: </b>{{i["title"]}}
+                </div>
                 {% endfor %}
             </div>
             <div class="text-center mt-2 mb-4">
